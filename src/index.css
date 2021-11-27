@@ -1,0 +1,9 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+
+.link_btn {
+    @apply font-sans no-underline bg-headerButtonColor text-white py-2 px-4 rounded-full border border-gray-400 hover:bg-litho-grey hover:text-white ;
+}
+
+@tailwind utilities;
